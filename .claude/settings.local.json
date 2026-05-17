@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\user\\\\OneDrive\\\\Desktop\\\\claudecode\" -Recurse -File)",
+      "Bash(Select-Object FullName)",
+      "PowerShell(head *)",
+      "Bash(npx tsc *)",
+      "Bash(Start-Process *)",
+      "Bash(cmd.exe *)",
+      "Bash(npx serve *)",
+      "Bash(npx http-server *)",
+      "Bash(netstat -ano)",
+      "Bash(findstr \":5175 :5173 :5174 :3000 :8080\")",
+      "Bash(gh auth *)",
+      "Bash(vercel --version)",
+      "PowerShell(gh auth *)",
+      "PowerShell(winget install *)",
+      "PowerShell(npm install *)",
+      "Bash(npm install *)",
+      "Bash(gh *)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(& \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" --version)",
+      "PowerShell(Start-Process powershell.exe)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git config *)"
+    ]
+  }
+}
